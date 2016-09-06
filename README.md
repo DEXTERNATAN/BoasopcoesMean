@@ -1,11 +1,11 @@
-# boasopcoesMean
+# Boas Opções
 ---
-Hello !
+Projeto que visa disponibilizar os melhores serviços e empresas on-line.
 
-Referencia para o projeto do inicio ao fim: 
+Referencia para o projeto de arquitetura: 
 https://github.com/jbltx/generator-mean-stack
 
-## Installation
+## Instalação
 
 Install the npm
 
