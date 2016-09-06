@@ -1,0 +1,1 @@
+"use strict";var GoogleStrategy=require("passport-google-oauth"),mongoose=require("mongoose"),User=mongoose.model("User"),path=require("path"),config=require(path.join(__dirname,"../../../config.json"));module.exports=function(env,passport,transporter){};

@@ -1,0 +1,1 @@
+"use strict";var mongoose=require("mongoose"),Schema=mongoose.Schema,taskSchema=new Schema({name:{type:String,required:!0}});taskSchema.statics={fillDoc:function(document,bodyReq,callback){for(var field in this.schema.paths)"_id"!==field&&"_v"!==field&&void 0!==bodyReq[field]&&(document[field]=bodyReq[field]);document.save(callback)}},mongoose.model("Task",taskSchema);

@@ -1,0 +1,117 @@
+{
+	"development": {
+
+		"host": "localhost",
+
+		"port": 9000,
+
+		"cookieSecret": "cookieSecret",
+
+		"sessionSecret": "sessionSecret",
+
+		"database": {
+
+			"name": "test",
+
+			"host": "localhost",
+
+			"port": 27017,
+
+			"user": "",
+
+			"password": ""
+		},
+
+		"mail": {
+
+			"service": "Gmail",
+
+			"auth": {
+				"user": "guser@gmail.com",
+				"pass": "gpassword"
+			}
+		}
+	},
+
+
+	"production": {
+
+		"host": "localhost",
+
+		"port": 8080,
+
+		"cookieSecret": "cookieSecret",
+
+		"sessionSecret": "sessionSecret",
+
+		"database": {
+
+			"name": "test",
+
+			"host": "localhost",
+
+			"port": 27017,
+
+			"user": "",
+
+			"password": ""
+		},
+
+		"mail": {
+
+			"service": "Gmail",
+
+			"auth": {
+				"user": "guser@gmail.com",
+				"pass": "gpassword"
+			}
+		}
+	},
+
+	
+	"oauth": {
+
+		"facebook": {
+
+			"clientID": "517844815061650",
+
+			"clientSecret": "f88433e17dbf36f0907f1ee5e9079286"
+
+		},
+
+		"google": {
+
+			"consumerKey": "",
+
+			"consumerSecret": ""
+
+		},
+
+		"github": {
+
+			"clientID": "",
+
+			"clientSecret": ""
+
+		},
+
+		"twitter": {
+
+			"consumerKey": "",
+
+			"consumerSecret": ""
+
+		},
+
+		"linkedin": {
+
+			"consumerKey": "",
+
+			"consumerSecret": ""
+			
+		}
+
+	}
+
+
+}
