@@ -24,9 +24,9 @@
                         <div class="wrapper">
                             <ul class="main-navigation navigation-top-header"></ul>
                             <ul class="user-area">
-                                <li><a href="#" ng-click="signinModal()"><strong>Entrar</strong></a></li>
+                                <li ng-hide="isSignedIn"><a href="#" ng-click="signinModal()"><strong>Entrar</strong></a></li>
                             </ul>
-                            <a href="submit.html" class="submit-item">
+                            <a href="#" class="submit-item" ng-click="signupModal()" ng-hide="isSignedIn">
                                 <div class="content">
                                     <span>Registre-se</span>
                                 </div>
